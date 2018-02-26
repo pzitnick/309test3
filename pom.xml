@@ -4,14 +4,14 @@
   <artifactId>WeightConversion</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>309Test3</name>
+  <dependency>
+    <groupId>junit</groupId
+    <artifactId>junit</artifactId>
+    <version>4.11</version>
+    <scope>test</scope>
+  </dependency>
   <build>
     <sourceDirectory>src</sourceDirectory>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
-      <scope>test</scope>
-    </dependency>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
